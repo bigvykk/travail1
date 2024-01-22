@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: solid rgba(0, 0, 0, 0.5) 0.15rem;
+    height: 700px;
+}
+#question2 {
+    width: 100px;
+}
+h3{
+    padding-top: 1rem;
+}
+#question5 {
+    width: 350px;
+    height: 100px;
+}
+.boutton {
+    padding-top: 2rem;
+}
+form {
+    text-align: center;
+}
+table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

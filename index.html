@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+            <form class="container" action="">
+                <h1>Questionnaire de culture générale</h1>
+
+                <h3>Question 1</h3>
+                <p>Quel est l`unité de mesure de longueur, anglo-saxonne</p>
+                <input type="text" id="question1">
+
+                <h3>Question 2</h3>
+                <p>Si une poule pond 6 oeufs par semaine. Combien d`oeufs a-t-on en un mois</p>
+                <select id="question2">
+                    <option value="12">12</option>
+                    <option value="18">18</option>
+                    <option value="24">24</option>
+                </select>
+                <h3>Question3</h3>
+                <p>Quelle distance en 30 minutes parcoure une auto qui roule a 80 km/h</p>
+                    <input type="radio" id="15" name="question3" value="15">
+                    <label for="15">15</label>
+                    <input type="radio" id="30" name="question3" value="30">
+                    <label for="15">30</label>
+                    <input type="radio" id="40" name="question3" value="40">
+                    <label for="15">40</label>
+                    <input type="radio" id="aucune" name="question3" value="aucune">
+                    <label for="15">aucune</label>
+
+                <h3>Question 4</h3>
+                    <p>Quelles sont les villes du Québec qui sont entre 200 000 et 500 000 habitants</p>
+
+                <table>
+                    <tr>
+                    <td><input type="checkbox" name="td" value="Montreal">Montreal</td>
+                    <td><input type="checkbox" name="td" value="Saguenay">Saguenay</td>
+                    <td><input type="checkbox" name="td" value="Gatineau">Gatineau</td>
+                    </tr>
+                    <tr>
+                    <td><input type="checkbox" name="td" value="Laval">Laval</td>
+                    <td><input type="checkbox" name="td" value="TerreBonne">TerreBonne</td>
+                    <td><input type="checkbox" name="td" value="Sherbrooke">Sherbrooke</td>
+                    <tr>
+                    </tr>
+                    <tr>
+                    <td><input type="checkbox" name="td" value="Québec">Québec</td>
+                    <td><input type="checkbox" name="td" value="DrummondVille">DrummondVille</td>
+                    <td><input type="checkbox" name="td" value="Longueuil">Longueuil</td>
+                    </tr>
+                </table>
+                    <h3>Question 5</h3>
+                    <p>Dans un paragraphe d`environ 25 mots (entre 50 et 60 caracteres), parlez-nous <br>
+                        des performances du Canada a la derniere LNH
+                    </p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="boutton">
+                    <button onclick="">Correction</button>
+                    <button onclick="">Recommencer</button>
+                </div>
+            </form>
+</body>
+</html>
